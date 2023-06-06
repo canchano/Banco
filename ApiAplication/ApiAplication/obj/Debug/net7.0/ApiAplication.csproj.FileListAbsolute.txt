@@ -1,0 +1,14 @@
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.csproj.AssemblyReference.cache
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.AssemblyInfoInputs.cache
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.AssemblyInfo.cs
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.csproj.CoreCompileInputs.cache
+/Users/canchano/Projects/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.deps.json
+/Users/canchano/Projects/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.runtimeconfig.json
+/Users/canchano/Projects/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.dll
+/Users/canchano/Projects/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.pdb
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.dll
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/refint/ApiAplication.dll
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.pdb
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.genruntimeconfig.cache
+/Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ref/ApiAplication.dll

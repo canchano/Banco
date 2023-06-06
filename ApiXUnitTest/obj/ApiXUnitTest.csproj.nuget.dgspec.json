@@ -1,96 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/ApiXUnitTest.csproj": {}
+    "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/ApiXUnitTest.csproj": {}
   },
   "projects": {
-    "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj": {
+    "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
-        "projectName": "ApiAplication",
-        "projectPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
-        "packagesPath": "/Users/canchano/.nuget/packages/",
-        "outputPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/canchano/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/ApiBancolombia.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/ApiBancolombia.csproj",
+        "projectUniqueName": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj",
         "projectName": "ApiBancolombia",
-        "projectPath": "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/ApiBancolombia.csproj",
+        "projectPath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj",
         "packagesPath": "/Users/canchano/.nuget/packages/",
-        "outputPath": "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/obj/",
+        "outputPath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/canchano/.nuget/NuGet/NuGet.Config"
@@ -105,11 +26,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj": {
-                "projectPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -158,14 +75,14 @@
         }
       }
     },
-    "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/ApiXUnitTest.csproj": {
+    "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/ApiXUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/ApiXUnitTest.csproj",
+        "projectUniqueName": "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/ApiXUnitTest.csproj",
         "projectName": "ApiXUnitTest",
-        "projectPath": "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/ApiXUnitTest.csproj",
+        "projectPath": "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/ApiXUnitTest.csproj",
         "packagesPath": "/Users/canchano/.nuget/packages/",
-        "outputPath": "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/obj/",
+        "outputPath": "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/canchano/.nuget/NuGet/NuGet.Config"
@@ -180,11 +97,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj": {
-                "projectPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj"
-              },
-              "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/ApiBancolombia.csproj": {
-                "projectPath": "/Users/canchano/Projects/ApiBancolombia/ApiBancolombia/ApiBancolombia.csproj"
+              "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj": {
+                "projectPath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj"
               }
             }
           }

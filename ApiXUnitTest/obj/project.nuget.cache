@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gy1AzmQaZqegwldv5oiAsg0w2st4m0fz/qFJg3SOfZMHgBqNmIH1BRk3Ibnm5T3TSxpCS9tSVAMig2mqb65hCw==",
+  "dgSpecHash": "jbsFtmrbp/F4Bh02Rm8DcT5iIQe8lE58x0wbqeLz9XVOO197T1p6JhdgoVwI8nr8dbxmNJpWIzDDglLKvK3hcA==",
   "success": true,
-  "projectFilePath": "/Users/canchano/Projects/ApiBancolombia/ApiXUnitTest/ApiXUnitTest.csproj",
+  "projectFilePath": "/Users/canchano/Documents/GitHub/Banco/ApiXUnitTest/ApiXUnitTest.csproj",
   "expectedPackageFiles": [
     "/Users/canchano/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/canchano/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
@@ -33,7 +33,7 @@
     "/Users/canchano/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/Users/canchano/.nuget/packages/moq.entityframeworkcore/7.0.0.2/moq.entityframeworkcore.7.0.0.2.nupkg.sha512",
     "/Users/canchano/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
-    "/Users/canchano/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/canchano/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/canchano/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/canchano/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "/Users/canchano/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",

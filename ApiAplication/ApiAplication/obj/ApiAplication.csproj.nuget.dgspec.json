@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj": {}
+    "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj": {}
   },
   "projects": {
-    "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj": {
+    "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj",
-        "projectName": "ApiBancolombia",
-        "projectPath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj",
+        "projectUniqueName": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
+        "projectName": "ApiAplication",
+        "projectPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
         "packagesPath": "/Users/canchano/.nuget/packages/",
-        "outputPath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/obj/",
+        "outputPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/canchano/.nuget/NuGet/NuGet.Config"
@@ -20,7 +20,6 @@
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,17 +38,29 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.5, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -64,9 +75,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
