@@ -12,3 +12,17 @@
 /Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.pdb
 /Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.genruntimeconfig.cache
 /Users/canchano/Projects/ApiAplication/ApiAplication/obj/Debug/net7.0/ref/ApiAplication.dll
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.deps.json
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.runtimeconfig.json
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.dll
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/bin/Debug/net7.0/ApiAplication.pdb
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.csproj.AssemblyReference.cache
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.AssemblyInfoInputs.cache
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.AssemblyInfo.cs
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.csproj.CoreCompileInputs.cache
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.dll
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/refint/ApiAplication.dll
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.pdb
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ApiAplication.genruntimeconfig.cache
+/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/Debug/net7.0/ref/ApiAplication.dll

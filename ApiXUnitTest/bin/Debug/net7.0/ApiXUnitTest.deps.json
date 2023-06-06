@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v7.0": {
       "ApiXUnitTest/1.0.0": {
         "dependencies": {
-          "ApiAplication": "1.0.0",
           "ApiBancolombia": "1.0.0",
           "FluentAssertions": "6.11.0",
           "Microsoft.NET.Test.Sdk": "17.5.0",

@@ -20,6 +20,7 @@ builder.Services.AddSingleton<CountryClientConfig, CountryClientConfig>(config =
 });
 builder.Services.AddHttpClient<ICountryRequesService, CountryRequesService>();
 builder.Services.AddScoped<ICountryService, CountryServices>();
+builder.Services.AddScoped<ILogService, LogService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

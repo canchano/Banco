@@ -1,0 +1,18 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "PostgreSQLConnection": "Host=db-bancolombia.cmoxwgvc8apo.us-east-2.rds.amazonaws.com:5432;Username=postgres;Password=rootroot;Database=bancolombiaLog"
+  },
+  "CountryClient": {
+    "BaseAdress": "https://restcountries.com/v3.1/",
+    "Country": "name/{name}"
+
+  } 
+}
+

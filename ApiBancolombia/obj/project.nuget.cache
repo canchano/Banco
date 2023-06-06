@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kOEK//g1CGkjGIihrcbGIy37uyiJjjK/rddioei9+NUQrYlYVCV/DCqAz3mQVxquVLqOfnvM3zyx0t8Hi/PNTA==",
+  "dgSpecHash": "OrV1nIH/L3Vi0DeWtK6rVyBDYvPClEakrFsPYv6EYhGq0nkKltwt1U4GLPEHNPjd1VqDt9MzKd4I4tOJzyl1ww==",
   "success": true,
   "projectFilePath": "/Users/canchano/Documents/GitHub/Banco/ApiBancolombia/ApiBancolombia.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "/Users/canchano/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/canchano/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/canchano/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/canchano/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/canchano/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
     "/Users/canchano/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "/Users/canchano/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

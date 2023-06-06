@@ -19,16 +19,14 @@ public class UnitTest1
     {
         Mock<ICountryRequesService> contryRequesServiceMock = new Mock<ICountryRequesService>();
         Mock<IConfiguration> configurationMock = new Mock<IConfiguration>();
-        //Mock < DbContextOptions<LogDbContext> >= new Mock<DbContextOptions<LogDbContext>>();
-        //Mock<LogDbContext> logDbContextMock = new Mock<LogDbContext>();
-        Mock<LogDbContext> logDbContextMock = new Mock<LogDbContext>();
-        logDbContextMock.Setup<DbSet<Log>>(x=>x.logs)
-        .ReturnsDbSet(CountryStub.logs);
+        Mock <ILogService> logServiceMock = new Mock<ILogService>();
 
-        //
 
+
+        configurationMock.Setup(c => c["CountryClient:Country"]).Returns("name/{name}");
         contryRequesServiceMock.Setup(c => c.GetRequestAsync(It.IsAny<string>())).ReturnsAsync(CountryStub.countriesOk);
-        ICountryService service = new CountryServices(contryRequesServiceMock.Object, configurationMock.Object, logDbContextMock.Object);
+        logServiceMock.Setup(l => l.SaveLog(It.IsAny<string>())).Returns(CountryStub.response);
+        ICountryService service = new CountryServices(contryRequesServiceMock.Object, configurationMock.Object, logServiceMock.Object);
         IList<Country> response = await service.GetCountryAsync(It.IsAny<string>());
         response.Should().BeEquivalentTo(CountryStub.countriesOk);
     }

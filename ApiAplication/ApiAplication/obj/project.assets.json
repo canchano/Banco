@@ -1000,11 +1000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
+      "projectUniqueName": "/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/ApiAplication.csproj",
       "projectName": "ApiAplication",
-      "projectPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/ApiAplication.csproj",
+      "projectPath": "/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/ApiAplication.csproj",
       "packagesPath": "/Users/canchano/.nuget/packages/",
-      "outputPath": "/Users/canchano/Projects/ApiAplication/ApiAplication/obj/",
+      "outputPath": "/Users/canchano/Documents/GitHub/Banco/ApiAplication/ApiAplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/canchano/.nuget/NuGet/NuGet.Config"
