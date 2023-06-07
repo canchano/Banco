@@ -8,20 +8,8 @@ namespace ApiXUnitTest
             name=new Name(){common="Colombia"},
             area=1141748,
             population=50882884,
-            error=null
+            error=""
         } };
-
-        /*[
-              {
-                "name": {
-                  "common": "Colombia"
-                },
-                "area": 1141748,
-                "population": 50882884,
-                "error": null
-              }
-            ]
-         */
 
         public static IList<Country> countriesFail = new List<Country>() { new Country() {
             name=null,
@@ -35,14 +23,16 @@ namespace ApiXUnitTest
             Descripcion="descripcion",
             Fecha=DateTime.Now,
         } };
-        public static Country response = new Country()
-        {
-            name = new Name() { common = "Colombia" },
-            area = 1141748,
-            population = 50882884,
-            error = null
+        public static IList<Country> response = new List<Country>() { new Country()
+            {
+                name = new Name() { common = "Colombia" },
+                area = 1141748,
+                population = 50882884,
+                error = ""
 
+            }
         };
+
     }
 }
 

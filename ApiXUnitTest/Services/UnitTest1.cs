@@ -20,15 +20,16 @@ public class UnitTest1
         Mock<ICountryRequesService> contryRequesServiceMock = new Mock<ICountryRequesService>();
         Mock<IConfiguration> configurationMock = new Mock<IConfiguration>();
         Mock <ILogService> logServiceMock = new Mock<ILogService>();
+        
 
-
-
-        configurationMock.Setup(c => c["CountryClient:Country"]).Returns("name/{name}");
-        contryRequesServiceMock.Setup(c => c.GetRequestAsync(It.IsAny<string>())).ReturnsAsync(CountryStub.countriesOk);
-        logServiceMock.Setup(l => l.SaveLog(It.IsAny<string>())).Returns(CountryStub.response);
+        //It.IsAny<string>()
+        configurationMock.Setup(c => c["CountryClient:BaseAdress"]).Returns("name/{name}");
+        contryRequesServiceMock.Setup(c => c.GetRequestAsync("https://restcountries.com/v3.1/name/colombia")).ReturnsAsync(CountryStub.countriesOk);
+        logServiceMock.Setup(l => l.SaveLog(It.IsAny<string>())).Returns(CountryStub.response[0]);
         ICountryService service = new CountryServices(contryRequesServiceMock.Object, configurationMock.Object, logServiceMock.Object);
-        IList<Country> response = await service.GetCountryAsync(It.IsAny<string>());
-        response.Should().BeEquivalentTo(CountryStub.countriesOk);
+        
+        IList<Country> response = await service.GetCountryAsync("https://restcountries.com/v3.1/name/colombia");
+        response.Should().BeEquivalentTo(CountryStub.response);
     }
 
     /*[Fact]
