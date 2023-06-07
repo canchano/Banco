@@ -12,7 +12,7 @@ namespace ApiAplication.Services.Implements
         private readonly IConfiguration configuration;
         private readonly ILogService logService;
         private string HttpError = string.Empty;
-
+        
         public CountryServices(ICountryRequesService _service, IConfiguration _configuration, ILogService _logService)
         {
             service = _service;
@@ -34,13 +34,12 @@ namespace ApiAplication.Services.Implements
                     HttpError = logService.SaveLog(country).error;
                 }
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) {
                 HttpError = "Error al conectarse al Api Country";
             }
-
-
-
+              
+            
+            
             return EvalSearch(countriesSearch, HttpError);
 
         }
@@ -62,33 +61,30 @@ namespace ApiAplication.Services.Implements
 
         private IList<Country> EvalSearch(IList<Country> countries, string error)
         {
-            Country country = new Country();
-            if (countries.Count() == 0 && error == null)
+            Country country=new Country();
+            if (countries.Count() == 0 && (error==null||error.Equals("")))
             {
                 country.error = "No se encontro la busqueda";
-
+                
             }
-            else
-            {
+            else {
                 if (countries.Count() == 0 && error.Equals(HttpError))
                 {
-
-                    country.error = HttpError;
-
+                   
+                        country.error = HttpError;
+                    
                 }
-                else
-                {
-
-                    if (countries.Count() > 0)
-                    {
-                        return countries;
-                    }
-
+                else {
+                    
+                        if (countries.Count() > 0) {
+                            return countries;
+                        }
+                    
                 }
             }
-
-            countries.Add(country);
-
+          
+                countries.Add(country);
+            
 
 
             return countries;
